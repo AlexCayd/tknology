@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="preload" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">    
+    <title>Tknology</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="../index.html"> <h1 class="logo__nombre no-margin centrar-texto"> Tknology </h1> </a>
+                <nav class="navegacion">
+                    <a href="../index.html" class="navegacion__enlace"> Home </a>
+                    <a href="../HTML/nosotros.html" class="navegacion__enlace"> Nosotros </a>
+                    <a href="../HTML/contacto.html" class="navegacion__enlace"> Contacto </a>
+                    <a href="../HTML/cursos.html" class="navegacion__enlace"> Cursos </a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto"> 
+            <h2 class="no-margin blog-tecnologia"> Blog de Tecnología </h2>         <!--Título del Header-->
+            <p class="no-margin header__texto__descripcion"> Investiga las nuevas tecnologías que tienes que aprender </p>       <!--Lema del blog-->
+        </div>
+    </header>
+
+    <div class="contenedor contenido-entrada">
+        <main>
+            <h2 class="titulo-entrada no-margin titulo-entrada__unico"> Aplicaciones de Escritorio </h2>
+            <div class="entrada">
+                <div class="entrada__imagen__articulo">
+                    <img loading="lazy" class="entrada__imagen" src="/IMG/blog11.jpg" alt="Imagen entrada"> 
+                </div>
+                <h3 class="titulo-entrada subtitulo"> Conocimientos para crear programas en Windows </h3> 
+                <p> Si estamos pensando en empezar a programar y crear programas desde Windows, esto es todo lo que necesitaremos para poder lograr nuestro objetivo. </p>
+                <p> No hay un lenguaje de programación mágico para crear programas para Windows. Desde el sistema operativo de Microsoft podemos ejecutar prácticamente cualquier tipo de lenguaje de programación, siempre y cuando tengamos el compilador y el intérprete correspondiente. </p>
+                <p> Sin embargo, sí que hay varios lenguajes de programación que predominan en este sistema operativo, y son generalmente los de Microsoft. Por ejemplo, la mayoría de los programas con entorno gráfico desarrollados para Windows utilizan los lenguajes Visual, como Visual C++, Visual C#, Visual J#, y Visual Basic .NET. </p>
+                <p> Si vamos a crear un programa más sencillo que no necesita interfaz, C es una gran opción. Incluso C++ si queremos usar alguna de las librerías gráficas que hay disponibles para este lenguaje. La diferencia entre C y C++ es que el primero no está orientado a objetos, además de ser bastante más limitado que C++. Hoy en día hay grandes proyectos escritos en este segundo lenguaje (Chrome, Firefox, muchos juegos, etc), por lo que, sin meternos de lleno en lenguajes Visual, es muy cómodo programar en él. </p>
+                <p> Si queremos crear un programa para Windows, pero que también funcione en otros sistemas operativos, entonces debemos usar otros lenguajes de programación multiplataforma. Java, por ejemplo, es uno de los más recurridos ya que todo lo que hagamos en este lenguaje podrá funcionar sin problemas en cualquier sistema operativo. Python, por otro lado, es un lenguaje similar muy popular últimamente para crear programas multi-plataforma. </p>
+                <p> También es fácil encontrar desarrollos en otros lenguajes, como Object Pascal, Ruby u Objective-C. </p>
+                <h3 class="titulo-entrada subtitulo"> Dependencias del lenguaje </h3>
+                <p> Dependiendo del tipo de programa que vayamos a crear, podemos instalar unas u otras dependencias para poder trabajar sin problemas. </p>
+                <ul class="lista">
+                    <li> <span class="negritas"> NodeJS.- </span> En caso de usar este framework para el desarrollo del software, tendremos que instalarlo tanto en Windows como en el Subsistema de Windows para Linux. </li>
+                    <li> <span class="negritas"> Python.- </span>Igual que NodeJS, también tendremos que instalar todas las librerías de Python en Windows o en WSL para poder desarrollar y ejecutar estos programas. </li>
+                    <li> <span class="negritas"> Android.- </span> Podemos instalar Android Studio para crear apps para Android, o instalar otras opciones multiplataforma, como Xamarin, React o Cordova, para la creación de los programas.</li>
+                </ul>
+                <img loading="lazy" class="entrada__imagen" src="/IMG/apps-esc1.jpg" alt="Imagen entrada"> 
+                <p> Para el resto de lenguajes, como C, C++, C#, Java y toda la plataforma Windows UWP, bastará con instalar los IDE de programación de Visual Studio, ya que estos traerán todo lo necesario para dar forma a nuestros programas, diseñar las interfaces y mucho más. </p>
+                <h3 class="titulo-entrada subtitulo"> Kit esencial de cualquier desarrollador de Windows </h3>
+                <p> En realidad, podríamos programar sin necesidad de necesitar ningún software especial, tan solo con un editor de texto como puede ser el Bloc de Notas. Sin embargo, hoy en día existen programas (IDE) muy completos que, además de ayudarnos a programar, nos permiten compilar el código para convertir nuestras líneas en algo funcional. </p>
+                <h4 class="titulo-entrada subtitulo"> Visual Studio Code </h4>
+                <img loading="lazy" class="entrada__imagen" src="/IMG/apps-esc3.jpg" alt="Imagen entrada"> 
+                <p> Visual Studio Code es un editor de texto que cuenta con muchas funciones de programación. Este programa cuenta con una gran cantidad de plugins que nos permiten adaptarlo para prácticamente cualquier lenguaje de programación que queramos. Gracias a sus funciones de IntelliSense, este programa puede resaltar la sintaxis, ayudarnos a auto-completar código e incluso encontrar errores. </p>
+                <p> Se integra con Git, es totalmente personalizable y, además, de código abierto. Podemos descargar Visual Studio Code para Windows, Linux y macOS. </p>
+                <h4 class="titulo-entrada subtitulo"> Microsoft Visual Studio </h4>
+                <p> Visual Studio es un IDE mucho más avanzado que Visual Studio Code desarrollado por Microsoft. Este IDE está desarrollado especialmente para la creación de programas para Windows, y es compatible con los principales lenguajes Visual, como ASP.NET, Visual C++, Visual C#, Visual J#, y Visual Basic .NET.</p>
+                <p> Este IDE nos permite crear fácilmente aplicaciones de servidor y software de escritorio para todas las versiones de Windows. Con los conocimientos adecuados es posible incluso crear aplicaciones (y juegos) 3D con él. </p>
+                <h4 class="titulo-entrada subtitulo"> Windows Template Studio </h4>
+                <p> Windows Template Studio es una extensión para Visual Studio diseñada especialmente para facilitar la creación de aplicaciones universales (UWP) para Windows 10. Este plugin se integra dentro del IDE de Microsoft y, con unos clics, nos permite dar forma al programa que queramos. </p>
+                <h4 class="titulo-entrada subtitulo"> Azure y .NET </h4>
+                <p> Aunque ya con esto entramos en temas un poco más avanzados, cualquier desarrollador que tenga en mente un proyecto a gran escala debe contar, lo primero, con la nube. Y qué mejor nube para desarrollar dentro de Microsoft que la suya: Azure. </p>
+                <p> Esta nube nos ofrece todo lo necesario para poder dar forma a cualquier proyecto, además de una serie de funciones y herramientas para integrar nuestras plataformas en ellas, llevar a cabo pruebas, continuar los desarrollos y administrar todas nuestras apps. </p>
+                <p> Y, junto a Azure, no podemos olvidarnos de .NET Core. Esta plataforma de código abierto cuenta con todas las herramientas y bibliotecas necesarias para crear cualquier tipo de app, tanto para PC como para móvil o que se ejecute en web. Además, también se utiliza para creación de juegos, para el Internet de las cosas y para el despliegue de microservicios. </p>
+                <h3 class="titulo-entrada subtitulo"> Alternativas </h3>
+                <p> Otros software interesante para crear programas desde Windows: </p>
+                <h4 class="titulo-entrada subtitulo"> NetBeans </h4>
+                <p> NetBeans es otro IDE de programación, esta vez enfocado principalmente al desarrollo de programas en Java. Este IDE es de código abierto y se caracteriza principalmente por ser modular, ya que cada usuario puede adaptarlo a sus necesidades mediante «módulos». </p>
+                <p> Necesitamos tener instalado el Java SDK para poder programar y compilar código escrito en este lenguaje. La ventaja es que todo lo que programemos en él funcionará igualmente en otros sistemas operativos. </p>
+                <p> Además de programar en java, con los módulos adecuados podemos programar también en JavaScript, HTML5, PHP o C/C++, entre otros. </p>
+                <img loading="lazy" class="entrada__imagen" src="/IMG/apps-esc2.jpg" alt="Imagen entrada"> 
+                <h4 class="titulo-entrada subtitulo"> Delphi </h4>
+                <p> Otro IDE de programación muy popular entre los programadores es Delphi. Este IDE nos ayuda a crear aplicaciones multiplataforma compiladas de forma nativa (sin tener que recurrir a otros programas o compiladores adicionales) de manera que el resultado final sea lo más puro posible. </p>
+                <p> Este IDE se puede utilizar para programar en varios lenguajes de programación, aunque lo más común es usarlo para la programación en Object Pascal. Todo lo que escribamos y compilemos con él será compatible con Windows y con Linux. También es muy utilizado para el desarrollo web, permitiendo crear bases de datos cliente-servidor y aplicaciones y servicios web, como CGI, ISAPI, NSAPI, COM y DCOM. </p>
+                <h4 class="titulo-entrada subtitulo"> Notepad++ </h4>
+                <p> Por último, no podíamos olvidarnos de Notepad++. Este editor de texto gratuito y de código abierto es una de las mejores alternativas al Bloc de Notas de Windows, pero también cuenta con complementos que nos permiten convertirlo en un completo IDE de programación. Si queremos algo sencillo de utilizar para programar a la antigua usanza (en modo texto, sin IDE), este es nuestro editor. </p>
+                <h4 class="titulo-entrada subtitulo"> Windows Terminal </h4>
+                <p> Windows nos ofrece como apps diferentes CMD y PowerShell. Sin embargo, trabajar con ellas no es precisamente fácil e intuitivo, especialmente si necesitamos varias instancias de cada una de ellas. Por ello, Microsoft ha desarrollado Windows Terminal, una app gratis y de código abierto desde la que vamos a poder ejecutar CMD, PowerShell, Bash y Azure desde una sola ventana, todo separado en pestañas. </p>
+                <h4 class="titulo-entrada subtitulo"> Microsoft PowerToys </h4>
+                <p> Las nuevas Microsoft PowerToys son un conjunto de programas y herramientas resucitadas de la era de Windows 95 gracias a las cuales vamos a poder llevar nuestra productividad a un nuevo nivel. Podemos crear escritorios virtuales, mapear el teclado y mucho más para que la tarea de programación sea lo más cómoda e intuitiva posible. </p>
+                <h4 class="titulo-entrada subtitulo"> WinGet </h4>
+                <p> Por último, de sobra se sabe que Linux es un sistema operativo superior a la hora de desarrollar, compilar y montar infraestructuras de servicios. Aunque siempre podemos tener nuestro propio servidor independiente, si usamos Windows 10 como PC principal vamos a poder virtualizar nuestro propio Linux gracias al Subsistema de Windows para Linux, o WSL. </p>
+                <h4 class="titulo-entrada subtitulo"> WSL </h4>
+                <p> Instalar paquetes, programas y dependencias desde Linux es muy sencillo, pero en Windows la cosa se complica. Por ello, podemos recurrir a WinGet, o Windows Packet Manager, para poder instalar, actualizar y desinstalar todo tipo de programas desde CMD, igual que si lo hiciéramos con el comando APT de Linux. </p>
+                <p> Así vamos a poder usar herramientas y comandos de Linux desde CMD o PowerShell sin necesidad de depender de más equipos. Todo en un mismo lugar. </p>
+                <h3 class="titulo-entrada subtitulo"> ¿Qué sistema operativo necesitamos para programar? </h3>
+                <p> Además del software, también es necesario contar con el sistema operativo adecuado. Lo ideal es que si vamos a crear un programa para Windows tengamos una versión actualizada de Windows 10, ya que así podremos tener el último SDK y nuestro programa, además de tener la mejor compatibilidad, estará a la última. </p>
+                <p> Lo mismo se aplica en el caso de crear un programa para Linux, o para macOS (aunque en este último caso no queda otra). </p>
+                <p> Además, en el caso de usar Windows 10, es recomendable tener la edición PRO, ya que ofrece una serie de herramientas avanzadas que nos pueden ser de  mucha utilidad. </p>
+                <p> ¿Puedo programar para Windows en otros sistemas operativos? Por supuesto. Sobre todo si programamos en texto plano y no dependemos de IDEs avanzados como Visual Studio. Pero, si queremos compilar y depurar el programa, lo ideal es contar con el sistema correcto. </p>
+                <h3 class="titulo-entrada subtitulo"> Video sobre el tema </h3>
+                <div class="video">
+                    <iframe class="video__youtube" src="https://www.youtube.com/embed/dZsD5c7uqPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3 class="titulo-entrada subtitulo"> Fuentes </h3>
+                <ul class="lista">
+                    <a href="https://www.softzone.es/programas/lenguajes/programador-crear-programas-windows/"> <li class="vineta enlace-entrada"> https://www.softzone.es/programas/lenguajes/programador-crear-programas-windows/ </li> </a>
+                </ul>
+            </main>
+
+        <aside class="sidebar">
+            <h3> Revisa las entradas </h3>       <!--Título de la barra lateral-->
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <a href="../index.html"> <h4 class="no-margin titulo-entrada"> Entradas </h4> </a>
+                    <a href="desarrollo-web.html"> <p class="widget-curso__info sidebar-entrada"> Desarrollo Web </p> </a>
+                    <a href="apps-moviles.html"> <p class="widget-curso__info sidebar-entrada"> Aplicaciones Móviles </p> </a>
+                    <a href="videojuegos.html"> <p class="widget-curso__info sidebar-entrada"> Videojuegos </p> </a>
+                    <a href="seguridad-informatica.html"> <p class="widget-curso__info sidebar-entrada"> Seguridad Informática </p> </a>
+                    <a href="machine-learning.html"> <p class="widget-curso__info sidebar-entrada"> Machine Learning </p> </a>
+                    <a href="realidad-virtual-y-aumentada.html"> <p class="widget-curso__info sidebar-entrada"> Realidad Virtual y Aumentada </p> </a>
+                    <a href="cloud-computing.html"> <p class="widget-curso__info sidebar-entrada"> Cloud Computing </p> </a>
+                    <a href="blockchain.html"> <p class="widget-curso__info sidebar-entrada"> Blockchain </p> </a>
+                    <a href="big-data.html"> <p class="widget-curso__info sidebar-entrada"> Big Data </p> </a>
+                    <a href="redes.html"> <p class="widget-curso__info sidebar-entrada"> Redes </p> </a>
+                    <a href="apps-escritorio.html"> <p class="widget-curso__info sidebar-entrada enlace-actual"> Aplicaciones de Escritorio </p> </a>
+                    <a href="sistemas-operativos.html"> <p class="widget-curso__info sidebar-entrada"> Sistemas Operativos </p> </a>
+                    <a href="iot.html"> <p class="widget-curso__info sidebar-entrada"> Internet of Things </p> </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="../index.html"> <h1 class="logo__nombre no-margin centrar-texto logo-footer"> Tknology </h1> </a>
+                <nav class="navegacion">
+                    <a href="../HTML/nosotros.html" class="navegacion__enlace navegacion__enlace__footer">Nosotros</a>     <!--Enlaces-->
+                    <a href="../HTML/contacto.html" class="navegacion__enlace navegacion__enlace__footer">Contacto</a>
+                    <a href="../HTML/cursos.html" class="navegacion__enlace navegacion__enlace__footer">Cursos</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <p class="centrar-texto"> Todos los derechos reservados. Alexander Oliva </p>
+</body>
+</html>

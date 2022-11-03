@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="preload" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">    
+    <title>Tknology</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="../index.html"> <h1 class="logo__nombre no-margin centrar-texto"> Tknology </h1> </a>
+                <nav class="navegacion">
+                    <a href="../index.html" class="navegacion__enlace"> Home </a>
+                    <a href="../HTML/nosotros.html" class="navegacion__enlace"> Nosotros </a>
+                    <a href="../HTML/contacto.html" class="navegacion__enlace"> Contacto </a>
+                    <a href="../HTML/cursos.html" class="navegacion__enlace"> Cursos </a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto"> 
+            <h2 class="no-margin blog-tecnologia"> Blog de Tecnología </h2>         <!--Título del Header-->
+            <p class="no-margin header__texto__descripcion"> Investiga las nuevas tecnologías que tienes que aprender </p>       <!--Lema del blog-->
+        </div>
+    </header>
+
+    <div class="contenedor contenido-entrada">
+        <main>
+            <h2 class="titulo-entrada no-margin titulo-entrada__unico"> Aplicaciones Móviles </h2>
+            <div class="entrada">
+                <div class="entrada__imagen__articulo">
+                    <img class="entrada__imagen" src="../IMG/apps-moviles3.jpg" alt="Imagen entrada"> 
+                </div>
+                <h3 class="titulo-entrada subtitulo"> ¿Qué es el desarrollo móvil? </h3> 
+                <p> Cada día es mayor el mercado que surge entorno a las aplicaciones móviles y la solicitud por parte de los clientes de un desarrollo óptimo. </p>
+                <p> El desarrollo móvil es simples palabras es crear aplicaciones para teléfonos y estas pueden funcionar en 2 sistemas operativos: Android de Google y iOS de Apple. </p>
+                <p> Las opciones de elección comenzarán por saber si queremos una aplicación exclusiva en Android o iOS que contengan funciones específicas de esos sistemas operativos optimizando su hardware o si queremos aplicaciones híbridas que puedan permitir un desarrollo para ambos sistemas operativos e incluso adaptada como aplicación web que permita la visualización desde un navegador. </p>
+                <p> El desarrollo móvil es simples palabras es crear aplicaciones para teléfonos y estas pueden funcionar en 2 sistemas operativos: Android de Google y iOS de Apple.</p> 
+                <p> En Android puedes desarrollar con lenguajes como Kotlin o Java, mientras que en IOS está Swift. A este tipo de aplicaciones se les conoce como "aplicaciones nativas", ya que se desarrollan específicamente en un sistema, esto quiere decir que no van a funcionar en el otro, habría que crear otra aplicación para ello. Esto puede suponer un costo excesivo para las empresas, ya que habría que hacer 2 aplicaciones. </p>
+                <p> Pero, ¿qué otras alternativas existen? </p>
+                <ul class="lista">
+                    <li class="vineta"> <span class="negritas"> Aplicaciones multiplataforma: </span>  En este tipo de aplicaciones solo se necesita desarrollar una sola vez para funcionar en Android o iOS. Se pueden hacer con React Native, Ionic, Xamarin o Flutter. </li>
+                    <li class="vineta"> <span class="negritas"> Progressive Web Apps: </span> Son aplicaciones intermedias entre web y móviles, que simulan la experiencia de una aplicación nativa. Por ejemplo la aplicación de EDteam para móviles es una PWA. </li>
+                </ul>
+                <img class="entrada__imagen" src="../IMG/apps-moviles1.png" alt="Imagen entrada">
+                <p> A continuación,  daremos una mayor descripción de las diferentes formas de desarrollo de aplicaciones móviles.</p>
+                <h3 class="titulo-entrada subtitulo"> Desarrollo Nativo (Android) </h3>
+                <p> Kotlin es el lenguaje de desarrollo para aplicaciones móviles que ayudará a prevenir errores de programación comunes en aplicaciones Android, que será fuertemente tipado y que permitirá interoperar con código basado en Java, de forma que no limita exclusivamente a este tipo de lenguaje. </p>
+                <p> Este lenguaje desde 2017 fue definido por Google como lenguaje de primer nivel para desarrollo en Android, lo cual supuso soporte por parte de la compañía. </p>
+                <h3 class="titulo-entrada subtitulo"> Desarrollo Nativo (iOS) </h3>
+                <p> Para iOS, Mac Apple TV y Apple Watch, Swift es el lenguaje elegido por Apple para el desarrollo de sus aplicaciones. Este lenguaje fuertemente tipado, que permitirá tener menos errores durante el desarrollo, facilita el uso de patrones de programación funcional y también gestionará de forma automática la memoria. </p>
+                <p> Como se trata de un desarrollo nativo tiene un mayor rendimiento en dispositivos Apple, como ejemplo, en algoritmos de búsqueda tiene estimada una velocidad 2,6 veces mayor que Objective-C y hasta 8,4 veces mayor que Python. </p>
+                <div class="tecnologias-par">
+                    <section class="tecnologia">
+                        <h4 class="titulo-icono"> Android </h4>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <line x1="4" y1="10" x2="4" y2="16" />
+                                <line x1="20" y1="10" x2="20" y2="16" />
+                                <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+                                <line x1="8" y1="3" x2="9" y2="5" />
+                                <line x1="16" y1="3" x2="15" y2="5" />
+                                <line x1="9" y1="18" x2="9" y2="21" />
+                                <line x1="15" y1="18" x2="15" y2="21" />
+                              </svg>
+                        </div>
+                        <p class="descripcion-icono"> Google </p>
+                    </section>
+                    <section class="tecnologia">
+                        <h4 class="titulo-icono"> iOS </h4>
+                        <div class="iconos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-apple" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M9 7c-3 0 -4 3 -4 5.5c0 3 2 7.5 4 7.5c1.088 -.046 1.679 -.5 3 -.5c1.312 0 1.5 .5 3 .5s4 -3 4 -5c-.028 -.01 -2.472 -.403 -2.5 -3c-.019 -2.17 2.416 -2.954 2.5 -3c-1.023 -1.492 -2.951 -1.963 -3.5 -2c-1.433 -.111 -2.83 1 -3.5 1c-.68 0 -1.9 -1 -3 -1z" />
+                                <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
+                            </svg>
+                        </div>
+                        <p class="descripcion-icono"> Apple </p>
+                    </section>
+                </div>
+                <h3 class="titulo-entrada subtitulo"> Desarrollo Semi-Híbrido (Xamarin) </h3>
+                <p> Este entorno de desarrollo permitirá desarrollar apps nativas multiplataforma, que permitirá desarrollar utilizando código C# para la lógica y XAML para las vistas, todo el código necesario para todas las plataformas. En un artículo anterior de nuestro blog ya hablamos de Xamarin para el desarrollo multiplataforma. </p>
+                <img class="entrada__imagen" src="../IMG/apps-moviles2.png" alt="Imagen entrada">
+                <h3 class="titulo-entrada subtitulo"> Desarrollo Híbrido (Ionic) </h3>
+                <p> A día de hoy, una de las mejores alternativas para el desarrollo ágil de apps. Este entorno de desarrollo utiliza estándares web como HTML, CSS y JavaScript, permitiendo obtener una Progressive Web App (PWA) con la capacidad de trabajar en iOS y Android como una aplicación nativa. </p>
+                <p> No necesariamente tiene que instalar la aplicación en el teléfono ya que permitirá acceder a través de un navegador, pero además añade la opción de generar aplicaciones para publicar tanto en Google Play como en la App Store. Todo esto consigue que una aplicación desarrollada con Ionic sea  accesible desde cualquier dispositivo por navegador o como app. </p>
+                <p> También de la posibilidad de desarrollar para kioskos, que al igual que las PWA serán multiplataforma y tendremos la opción de distribución por varios canales y siempre enfocados a múltiples objetivos. </p>
+                <p> Como tabla comparativa obtendremos lo siguiente: </p>
+                <table border="3" class="tabla">
+                    <tr border="0"> 
+                        <td class="celda"> </td>
+                        <td class="celda negritas"> Aplicaciones Híbridas </td>
+                        <td class="celda negritas"> Aplicaciones Nativas </td>
+                    </tr>
+                    <tr border="0"> 
+                        <td class="celda negritas"> Coste de desarrollo y mantenimiento </td>
+                        <td class="celda"> Coste menor al ser un único desarrollo para múltiples plataformas </td>
+                        <td class="celda"> Coste elevado debido a la programación por tipo de dispositivo con lenguajes más complejos </td>
+                    </tr>
+                    <tr>
+                        <td class="celda negritas"> Rendimiento </td>
+                        <td class="celda"> Bastante bueno, excepto en aplicaciones que exigen de mucho hardware, como juegos </td>
+                        <td class="celda"> Óptimo </td>
+                    </tr>
+                    <tr>
+                        <td class="celda negritas"> Acceso a características del dispositivo </td>
+                        <td class="celda"> Prácticamente completo </td>
+                        <td class="celda"> Completo </td>
+                    </tr>
+                    <tr>
+                        <td class="celda negritas"> Tiempo de desarrollo </td>
+                        <td class="celda"> Mucho menor debido a que es un lenguaje mucho más simple y un único desarrollo por plataforma </td>
+                        <td class="celda"> Duplica como mínimo el tiempo a la híbrida debido a que serán dos desarrollos por separado </td>
+                    </tr>
+                </table>
+                <p> Como conclusión, las ventajas que tendrá el desarrollo nativo será la posibilidad de acceder tanto a todo tipo de sensores como al hardware completo del dispositivo, tanto interno como externo y ofrecerá un 100% de rendimiento del entorno visual. </p>
+                <p> El desarrollo híbrido nos permitirá llegar al máximo público desarrollando en una sola vez para ambas plataformas, lo que en desarrollo nativo tendría un coste mucho mayor ya que existirían dos aplicaciones totalmente distintas. Además a día de hoy las aplicaciones híbridas cada vez se acercan más a las apariencia de las aplicaciones nativas lo que les hace ganar una mayor cuota de mercado. </p>
+                <h3> Tiendas de aplicaciones </h3>
+                <ul class="lista">
+                    <li class="vineta"> <span class="negritas"> App Store:  </span> Tienda de aplicaciones de Apple, es la más restrictiva en términos legales del mercado, fue lanzada en 2008 y está presente exclusivamente en los dispositivos Apple (iPhone, iPad, Mac y los descontinuados iPod Touch), también está disponible en el interior de iTunes. Es la tienda de aplicaciones que más beneficios produce en el mundo, la segunda con más descargas por año y la segunda con mayor cantidad de nuevos desarrolladores por año. </li>
+                    <li class="vineta"> <span class="negritas"> Google Play Store: </span> Tienda de aplicaciones de todos los dispositivos con sistema operativo Android, tales como teléfonos inteligentes  y tablets Samsung, LG, Nexus, Motorola, entre otros pertenecientes a empresas del conglomerado Open Handset Alliance. Actualmente es la tienda de aplicaciones con más descargas por año a nivel mundial, la segunda con mayores beneficios y la tienda con mayor cantidad de nuevos desarrolladores por año fue desarrollada por Google y lanzada con el nombre de Google Play Store en 2012. </li>
+                </ul>
+                <img class="entrada__imagen" src="../IMG/apps-moviles4.jpg" alt="Imagen entrada">
+                <p> También existen otras tiendas de aplicaciones alternativas poco conocidas que son descargables en dispositivos con sistema operativo Android, como EspAndroid, tienda exclusivamente en Español; F-Droid, una tienda a favor del software libre, con todas sus apps gratis y de código abierto, también MoboMarket, una tienda que se centra principalmente en la seguridad, buscando la confianza de los usuarios ante un sistema seguro y libre de agujeros de seguridad.</p>
+                <p>  A pesar de ser poco conocidas en relación con las tiendas líderes o Amazon AppStore y Windows Phone Store entre las 3 tienen más de 250 millones de usuarios.</p>
+                <h3 class="titulo-entrada subtitulo"> Video sobre el tema </h3>
+                <div class="video">
+                    <iframe class="video__youtube" src="https://www.youtube.com/embed/fU8wT6qYw7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3 class="titulo-entrada subtitulo"> Fuentes </h3>
+                <ul class="lista">
+                    <a href="https://www.hiberus.com/crecemos-contigo/mejores-herramientas-de-desarrollo-de-apps-movil/"> <li class="vineta enlace-entrada fuente-info"> https://www.hiberus.com/crecemos-contigo/mejores-herramientas-de-desarrollo-de-apps-movil/ </li> </a>
+                    <a href="https://www.aprendemachinelearning.com/7-pasos-machine-learning-construir-maquina/"> <li class="vineta enlace-entrada fuente-info"> https://www.aprendemachinelearning.com/7-pasos-machine-learning-construir-maquina/ </li> </a>
+                </ul>
+            </main>
+
+        <aside class="sidebar">
+            <h3> Revisa las entradas </h3>       <!--Título de la barra lateral-->
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <a href="../index.html"> <h4 class="no-margin titulo-entrada"> Entradas </h4> </a>
+                    <a href="desarrollo-web.html"> <p class="widget-curso__info sidebar-entrada"> Desarrollo Web </p> </a>
+                    <a href="apps-moviles.html"> <p class="widget-curso__info sidebar-entrada enlace-actual"> Aplicaciones Móviles </p> </a>
+                    <a href="videojuegos.html"> <p class="widget-curso__info sidebar-entrada"> Videojuegos </p> </a>
+                    <a href="seguridad-informatica.html"> <p class="widget-curso__info sidebar-entrada"> Seguridad Informática </p> </a>
+                    <a href="machine-learning.html"> <p class="widget-curso__info sidebar-entrada"> Machine Learning </p> </a>
+                    <a href="realidad-virtual-y-aumentada.html"> <p class="widget-curso__info sidebar-entrada"> Realidad Virtual y Aumentada </p> </a>
+                    <a href="cloud-computing.html"> <p class="widget-curso__info sidebar-entrada"> Cloud Computing </p> </a>
+                    <a href="blockchain.html"> <p class="widget-curso__info sidebar-entrada"> Blockchain </p> </a>
+                    <a href="big-data.html"> <p class="widget-curso__info sidebar-entrada"> Big Data </p> </a>
+                    <a href="redes.html"> <p class="widget-curso__info sidebar-entrada"> Redes </p> </a>
+                    <a href="apps-escritorio.html"> <p class="widget-curso__info sidebar-entrada"> Aplicaciones de Escritorio </p> </a>
+                    <a href="sistemas-operativos.html"> <p class="widget-curso__info sidebar-entrada"> Sistemas Operativos </p> </a>
+                    <a href="iot.html"> <p class="widget-curso__info sidebar-entrada"> Internet of Things </p> </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="../index.html"> <h1 class="logo__nombre no-margin centrar-texto logo-footer"> Tknology </h1> </a>
+                <nav class="navegacion">
+                    <a href="../HTML/nosotros.html" class="navegacion__enlace navegacion__enlace__footer">Nosotros</a>     <!--Enlaces-->
+                    <a href="../HTML/contacto.html" class="navegacion__enlace navegacion__enlace__footer">Contacto</a>
+                    <a href="../HTML/cursos.html" class="navegacion__enlace navegacion__enlace__footer">Cursos</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <p class="centrar-texto"> Todos los derechos reservados. Alexander Oliva </p>
+</body>
+</html>

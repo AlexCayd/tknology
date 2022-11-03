@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="preload" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">    
+    <title>Tknology</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="../index.html"> <h1 class="logo__nombre no-margin centrar-texto"> Tknology </h1> </a>
+                <nav class="navegacion">
+                    <a href="../index.html" class="navegacion__enlace"> Home </a>
+                    <a href="../HTML/nosotros.html" class="navegacion__enlace"> Nosotros </a>
+                    <a href="../HTML/contacto.html" class="navegacion__enlace"> Contacto </a>
+                    <a href="../HTML/cursos.html" class="navegacion__enlace"> Cursos </a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto"> 
+            <h2 class="no-margin blog-tecnologia"> Blog de Tecnología </h2>         <!--Título del Header-->
+            <p class="no-margin header__texto__descripcion"> Investiga las nuevas tecnologías que tienes que aprender </p>       <!--Lema del blog-->
+        </div>
+    </header>
+
+    <div class="contenedor contenido-entrada">
+        <main>
+            <h2 class="titulo-entrada no-margin titulo-entrada__unico"> Cloud Computing </h2>
+            <div class="entrada">
+                <div class="entrada__imagen__articulo">
+                    <img class="entrada__imagen" src="/IMG/blog7.jpg" alt="Imagen entrada"> 
+                </div>
+                <h3 class="titulo-entrada subtitulo"> ¿Qué es el cómputo en la nube? </h3> 
+                <p> La nube es una red mundial de servidores que ofrecen servicios de almacenamiento, bases de datos, redes, software, análisis e inteligencia a través de internet. Esto les permite a las empresas y usuarios pagar solamente por lo que usan, lo cual realmente es un beneficio enorme. </p>
+                <p> Ya que no tienen que adquirir equipos caros y todo lo que conllevan, sino que por un pago menor pueden optar hasta por una supercomputadora. </p>
+                <img class="entrada__imagen" src="/IMG/cloud3.png" alt="Imagen entrada">
+                <p> Y puedes acceder a ellos a través de 3 modelos de servicio que existen en la nube: </p>
+                
+                <h3 class="titulo-entrada subtitulo"> Servicios dentro del cloud computing </h3>
+                 
+                <p> Podemos agrupar los tipos de servicios que proporciona la computación en la nube en tres grandes bloques. </p>
+                
+                <h4 class="titulo-entrada subtitulo"> IaaS (Infrastructure as a Service) o Infraestructura como Servicio. </h4>
+                <p> En él, el cliente adquiere del proveedor externo todos los recursos, como son servidores, espacio de almacenamiento en un centro de datos o el equipamiento para redes. Normalmente se lleva a cabo mediante una plataforma de virtualización. De los tres tipos de servicios, es el que mayor control otorga al usuario y, por ende, el que tiene mayor complejidad de uso. </p>
+                <p> IaaS es ideal para desarrolladores, que pueden escoger Sistema Operativo, cantidad de almacenamiento y otras posibilidades gracias a la total transparencia del servicio. Ejemplos de IaaS son Microsoft Azure y Amazon Web Services. </p>
+                <h4 class="titulo-entrada subtitulo"> PaaS (Platform as a Service) o Plataforma como Servicio </h4>
+                <p> Con este modelo el proveedor proporciona la plataforma para el desarrollo de aplicaciones, así como su mantenimiento y gestión. En otras palabras, ofrece todo lo que se necesita para completar el ciclo de vida y despliegue de dichas aplicaciones o servicios web. </p>
+                <p> Aquí el usuario carece de control sobre la infraestructura de almacenamiento o redes. PaaS mantiene la escalabilidad automática, en función de lo que exija la situación. Ejemplo de Paas es Google App Engine, donde los desarrolladores pueden crear sus aplicaciones en Java o Python. </p>
+                <h4 class="titulo-entrada subtitulo"> SaaS (Software as a Service) o Software como Servicio </h4>
+                <p> En este caso el cliente solamente puede hacer uso de un software que se encuentra alojado en la nube. Por tanto, todo lo relacionado con el mantenimiento, desarrollo, soporte y operaciones es responsabilidad de la empresa que ofrece el servicio. </p>
+                <p> El cliente usará el sistema alojado por esa empresa, la cual mantendrá la información del cliente en sus sistemas y proveerá los recursos necesarios para explotar esa información. En este grupo podemos poner como ejemplo cualquier servicio web de correo electrónico, como Gmail. </p>
+                <ul class="lista">
+                    <li> Los usuarios pueden aumentar los recursos a demanda, liberando de ese trabajo a los administradores. </li>
+                    <li> Las empresas pueden incrementar o disminuir los recursos en función de los picos y valles de demanda. Con esto no se hace necesario contratar grandes cantidades de almacenamiento con vistas a futuro si no lo necesitamos en ese momento. </li>
+                    <li> Se paga sólo por los recursos que se utilizan. </li>
+                    <li> Los proveedores implementan recursos que garantizan un servicio resistente a fallos que siempre funcione. </li>
+                    <li> Se facilitan los métodos para migrar datos y servicios de o desde la nube o entre nubes, de forma automática o manualmente por el usuario. </li>
+                </ul>
+                <h3 class="titulo-entrada subtitulo"> Tipos de Nube </h3>
+                <img class="entrada__imagen" src="/IMG/cloud1.png" alt="Imagen entrada">
+                <p> Cloud computing puede implementarse según los siguientes modelos de nube: </p>
+                <ul>
+                    <li> <span class="negritas"> Nube pública.- </span> Este tipo de nube ofrece sus servicios a cualquier usuario de internet. Sus servidores y almacenamiento pertenecen al proveedor del servicio y el cliente sólo paga generalmente por el espacio de almacenamiento o el ancho de banda que consumen. </li>
+                    <li> <span class="negritas"> Nube privada.- </span> Estas nubes ofrecen sus servicios a un número limitado de usuarios a través de una red de una empresa. Esta red puede localizarse en las propias instalaciones de la empresa o en las de un proveedor externo. </li>
+                    <li> <span class="negritas"> Nube híbrida.- </span> Como su propio nombre indica, este tipo de nube es fruto de una combinación de las dos anteriores. En esta se almacenan datos en nubes públicas o privadas en función de las necesidades. Por ejemplo, se puede guardar la información más delicada en la nube privada y la menos crítica en la pública o también usar la nube pública para cuando haya picos de trabajo que exijan un mayor rendimiento. </li>
+                    <li> <span class="negritas"> Multicloud.- </span> Se trata de una opción que está siendo adoptada por muchas entidades y que consiste en varias nubes entre las que se desplazan los distintos servicios y que pueden trabajar simultáneamente. Con multicloud los clientes se blindan ante posibles interrupciones del servicio. </li>
+                </ul>
+                <h3 class="titulo-entrada subtitulo"> ¿Qué es AWS Amazon? </h3>
+                <p> Para empezar a entender que es aws, empezaremos por explicar que Amazon AWS o Amazon Web Services es el conjunto de hosting y servicios de Amazon en la nube o Cloud Hosting / Cloud Services.</p>
+                <p> Tal vez te has escuchado recientemente estos conceptos y te has preguntado que es aws lambda, que es aws s3, que es aws ec2, etc. A lo largo de la historia de aws se han ido integrando mas y mas servicios. En los siguientes capítulos se explicarán los mas relevantes. </p>
+                <h3 class="titulo-entrada subtitulo"> ¿Por qué aprender Amazon AWS? </h3>
+                <p> La forma en como aprender aws de forma exitosa es una combinación entre lectura de la teoría de cada uno de los servicios de AWS con la práctica del uso de los mismos, por lo cual las lecciones son una combinación de teoría y práctica. </p> 
+                <h3 class="titulo-entrada subtitulo"> ¿Cuáles son los beneficios de aprender AWS? </h3>
+                <p> Existen múltiples razones para aprender aws que pueden motivarte, aquí te presentamos unas de ellas. </p>
+                <img class="entrada__imagen" src="/IMG/cloud2.png" alt="Imagen entrada">
+                <ul class="lista"> 
+                    <li> Es el proveedor de servicios en la nube que mas crece. </li>
+                    <li> Es la la plataforma de servicios en la nube mas grande que existe. </li>
+                    <li> Cada vez mas organizaciones están moviendo sus sistemas de un ambiente local a un ambiente en AWS (en la nube). </li>
+                    <li> No es necesario realizar un compromiso con contratos por largos tiempos y elevados costos. </li>
+                    <li> La certificación de AWS es una de las mas importantes y con mayor valor entre las certificaciones del área tecnologias de información (IT). </li>
+                    <li> Es posible presentar el examen de aws en español que permite al usuario obtener la certificacion de amazon aws. El examen sobre amazon web services en español dura aproximadamente 90 minutos, en los cuales el usuario deberá contestar una serie de preguntas acerca de dichos servicios, así como una serie de escenarios propuestos. </li>
+                    <li> Existen diferentes certificaciones amazon web services, las presentes notas se enfocan en el nivel Arquitecto Asociado. </li>
+                </ul>
+                <p> Tomar en cuenta que Amazon no es un hosting gratis, si bien existe una free tier que ofrece un número de peticiones para cada servicio de forma gratuita, para su implementación como tal hay que tener un presupuesto disponible suficiente. </p>
+                <h3 class="titulo-entrada subtitulo"> ¿Cuáles son los competidores de AWS? </h3>
+                <ul class="lista lista-grid__3"> 
+                    <li> Microsoft </li>
+                    <li> Google </li>
+                    <li> CenturyLink </li>
+                    <li> Rackspace </li>
+                    <li> Virtustream </li>
+                    <li> VMWare </li>
+                    <li> Interoute </li>
+                    <li> CSC </li>
+                    <li> Fujitsu </li>
+                    <li> Verizon </li>
+                    <li> Joyent </li>
+                    <li> NTT Communications </li>
+                </ul>
+                <h3 class="titulo-entrada subtitulo"> ¿Cuántos servidores tiene Amazon AWS? </h3>
+                <ul class="lista lista-grid__2"> 
+                    <li> 2011 (82 servidores) </li>
+                    <li> 2012 (159 servidores) </li>
+                    <li> 2013 (280 servidores) </li>
+                    <li> 2014 (516 servidores) </li>
+                    <li> 2015 (735 servidores) </li>
+                    <li> 2016 (+ de 1000 servidores) </li>
+                </ul>
+                <h3 class="titulo-entrada subtitulo"> Video sobre el tema </h3>
+                <div class="video">
+                    <iframe class="video__youtube" src="https://www.youtube.com/embed/h4Af5bbFAq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h3 class="titulo-entrada subtitulo"> Fuentes </h3>
+                <ul class="lista">
+                    <a href="https://www.tokioschool.com/noticias/programar-experiencias-realidad-virtual/"> <li class="vineta enlace-entrada "> https://www.tokioschool.com/noticias/programar-experiencias-realidad-virtual/ </li> </a>
+                    <a href="https://apuntes.de/aws/por-que-aprender-aws/#gsc.tab=0"> <li class="vineta enlace-entrada "> https://apuntes.de/aws/por-que-aprender-aws/#gsc.tab=0 </li> </a>
+                    <a href="https://www.viafirma.com/blog-xnoccio/es/tipos-servicios-cloud-computing-empresas/"> <li class="vineta enlace-entrada "> https://www.viafirma.com/blog-xnoccio/es/tipos-servicios-cloud-computing-empresas/ </li> </a>
+                </ul>
+            </main>
+
+        <aside class="sidebar">
+            <h3> Revisa las entradas </h3>       <!--Título de la barra lateral-->
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <a href="../index.html"> <h4 class="no-margin titulo-entrada"> Entradas </h4> </a>
+                    <a href="desarrollo-web.html"> <p class="widget-curso__info sidebar-entrada"> Desarrollo Web </p> </a>
+                    <a href="apps-moviles.html"> <p class="widget-curso__info sidebar-entrada"> Aplicaciones Móviles </p> </a>
+                    <a href="videojuegos.html"> <p class="widget-curso__info sidebar-entrada"> Videojuegos </p> </a>
+                    <a href="seguridad-informatica.html"> <p class="widget-curso__info sidebar-entrada"> Seguridad Informática </p> </a>
+                    <a href="machine-learning.html"> <p class="widget-curso__info sidebar-entrada"> Machine Learning </p> </a>
+                    <a href="realidad-virtual-y-aumentada.html"> <p class="widget-curso__info sidebar-entrada"> Realidad Virtual y Aumentada </p> </a>
+                    <a href="cloud-computing.html"> <p class="widget-curso__info sidebar-entrada enlace-actual"> Cloud Computing </p> </a>
+                    <a href="blockchain.html"> <p class="widget-curso__info sidebar-entrada"> Blockchain </p> </a>
+                    <a href="big-data.html"> <p class="widget-curso__info sidebar-entrada"> Big Data </p> </a>
+                    <a href="redes.html"> <p class="widget-curso__info sidebar-entrada"> Redes </p> </a>
+                    <a href="apps-escritorio.html"> <p class="widget-curso__info sidebar-entrada"> Aplicaciones de Escritorio </p> </a>
+                    <a href="sistemas-operativos.html"> <p class="widget-curso__info sidebar-entrada"> Sistemas Operativos </p> </a>
+                    <a href="iot.html"> <p class="widget-curso__info sidebar-entrada"> Internet of Things </p> </a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="../index.html"> <h1 class="logo__nombre no-margin centrar-texto logo-footer"> Tknology </h1> </a>
+                <nav class="navegacion">
+                    <a href="../HTML/nosotros.html" class="navegacion__enlace navegacion__enlace__footer">Nosotros</a>     <!--Enlaces-->
+                    <a href="../HTML/contacto.html" class="navegacion__enlace navegacion__enlace__footer">Contacto</a>
+                    <a href="../HTML/cursos.html" class="navegacion__enlace navegacion__enlace__footer">Cursos</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <p class="centrar-texto"> Todos los derechos reservados. Alexander Oliva </p>
+</body>
+</html>

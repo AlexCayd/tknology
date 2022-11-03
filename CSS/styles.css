@@ -1,0 +1,480 @@
+:root {
+    --primario: #00296b;
+    --secundario: #fdc500;
+    --terciario: #003f88;
+    --blanco: #ffffff;
+    --blancoscuro: #dfe9f3;
+    --fuenteprincipal: 'Oswald', sans-serif;
+    --fuentesecundaria: 'Cabin', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;       /*Regula el tamaño de los rem*/
+    scroll-snap-type: y mandatory;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+body {
+    background-color: var(--blanco);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-image: linear-gradient(to top, var(--blancoscuro) 0%, var(--secundario) 20%);
+}
+p, ul, table, h1 {
+    font-size: 2rem;
+    font-family: var(--fuentesecundaria);
+}
+a {
+    text-decoration: none;      /*Quita el subrayado predeterminado*/
+}
+img {
+    max-width: 100%;
+    max-height: 100;
+}
+h2, h3, h4, a, .widget-curso__label, .campo__label, .campo__field {
+    font-family: var(--fuenteprincipal);
+}
+h1 {
+    font-size: 6.5rem;
+}
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 4.1rem;
+}
+h4 {
+    font-size: 3.4rem;
+    color: var(--terciario);
+}
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;         /*Centra el contenido horizontalmente*/
+}
+
+/*Utilidades*/
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto, .header__texto, .entrada__imagen, .titulo-entrada {
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 50rem;          /*Definimos altura de la imagen*/
+    border-bottom: .8rem solid var(--primario);
+}
+
+.contacto-bg, .header {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.entrada__imagen, .header {
+    background-position: center center;         /*Centra la imagen vertical y horizontalmente*/
+}
+
+.header__texto, .navegacion {
+    color: var(--blanco);
+    margin-top: 2rem;           /*Coloca un espacio entre el texto y el espacio en la imagen*/
+}
+
+.blog-tecnologia {
+    font-size: 4.6rem;
+}
+
+.header__texto__descripcion {
+    font-size: 2.5rem;
+}
+
+.logo {
+    color: var(--blanco);
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: var(--fuentesecundaria);
+}
+
+.barra {
+    padding-top: 1.5rem;
+}
+
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--blanco);
+    border-bottom: .5rem solid var(--blanco);
+    padding: .2rem;
+}
+
+.navegacion__enlace:first-of-type {
+    border-top: .5rem solid var(--blanco);
+}
+
+.cursos {
+    list-style: none;
+    padding: 3.5rem;
+}
+
+.cursos, .entrada {
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.54);     /*Genera el efecto de cartel en el contenido*/
+}
+
+.cursos, .entrada, .logo-plataforma, .entrada__imagen{
+    border-radius: 1rem;        /*Bordea las esquinas*/
+}
+
+.widget-curso:last-of-type {
+    border: none;
+}
+
+.widget-curso__label {
+    font-weight: bold;
+}
+
+.widget-curso__info {
+    font-weight: 400;
+}
+
+.widget-curso__info, .widget-curso__label {
+    font-size: 2rem;
+}
+
+.boton--primario {
+    background-color: var(--terciario);
+}
+
+.boton--secundario {
+    background-color: var(--primario);
+    margin-top: 2rem;
+}
+
+.boton {
+    display: block;
+    font-family: var(--fuentesecundaria);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none
+}
+
+.titulo-entrada__unico {
+    margin-top: 4rem;
+}
+
+.entrada {
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.54);
+    padding: 2rem 3rem 1rem 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.entrada, .formulario, .cursos {
+    background-color: var(--blanco);
+}
+
+.subtitulo {
+    color: var(--primario);
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.lista {
+    list-style: circle black;
+}
+
+.entrada__imagen__articulo{
+    text-align: center;
+}
+
+.tecnologia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3rem;
+}
+
+
+.tecnologia .iconos {
+    height: 15rem;      /*Alto del círculo*/
+    width: 15rem;       /*Ancho del círculo*/
+    background-color: var(--secundario);
+    border-radius: 50%;     /*Convierte el cuadrado en círculo*/
+    display: flex;
+    justify-content: space-evenly;      /*Asigna espacio entre los iconos*/
+    align-items: center;
+}
+
+.tecnologias__espacio {
+    margin-bottom: 5rem;
+}
+
+.tecnologias__espacio__2 {
+    margin-top: 7rem;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion-icono {
+    line-height: 2;         /*Agregamos un interlineado a los párrafos*/
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primario);
+}
+
+.footer, .titulo-entrada {
+    padding-bottom: 2rem;
+}
+
+.logo-footer, .navegacion__enlace__footer {
+    color: var(--secundario)
+}
+
+/*Contacto*/
+.contacto-bg {
+    background-image: url(../IMG/contacto.jpg);
+    height: 40rem;
+}
+
+.sidebar-entrada {
+    font-weight: bold;
+    font-family: var(--fuentesecundaria);
+    color: var(--primario);
+}
+
+/*Formulario*/
+.formulario {
+    margin: -25rem auto 8rem auto;
+    width: 95%;
+    padding: 5rem;
+    border: solid 1rem var(--primario);
+}
+
+.fieldset {
+    border: none;
+}
+
+.campo {
+    margin-bottom: 2rem;
+}
+
+.campo__label, .campo__field {
+    font-size: 2rem;
+}
+
+.campo__label {
+    color: var(--primario);       
+    font-weight: bold;
+    margin-bottom: .5rem;       /*Da espacio entre el nombre del campo y el input*/
+    display: block;         /*Hará que los inputs ocupen todo el espacio*/
+}
+
+.campo__field {
+    width: 100%;
+    border: none;       /*Quitamos el borde de los inputs*/
+    padding: 1.5rem;        /*Modificamos el ancho de los inputs*/
+    border-radius: .5rem;       /*Redondear las esquinas de los inputs*/
+    border: solid .5rem var(--primario);
+}
+
+.campo__field--textarea {
+    height: 20rem;
+    margin-bottom: 3rem;
+}
+
+.formulario-instrucciones {
+    color: #000000;
+    font-size: 2.8rem;
+    margin-bottom: 6rem;
+}
+
+/* Cursos */
+.enlace-curso {
+    color: var(--terciario);
+}
+
+.titulo-curso {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));      /*Pone los productos en dos columnas*/
+    column-gap: 1rem;       /*Espacio horizontal entre productos*/
+}
+
+.curso-descripcion__texto {
+    font-size: 1.8rem;
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+.enlace-entrada {
+    font-family: var(--fuentesecundaria);
+    color: var(--terciario);
+}
+
+.enlace-actual {
+    color: var(--secundario);
+}
+
+.video {
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.video::after {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video__youtube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tabla {
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: var(--secundario);
+    border-style: none;
+    background-color: var(--secundario);
+    font-size: 1.35rem;
+    border: none;
+}
+
+.celda {
+    border-color: var(--blancoscuro);
+    border-style: inset;
+    padding: .3rem;
+}
+
+.fuente-info {
+    font-size: 1.2rem;
+}
+
+/* Media Querie */
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;             /*Coloca espacio entre el logo y la barra de navegación*/
+        align-items: center;            /*Alinea el logo y la barra horizontalmente*/
+    }
+    .header__texto {
+        margin-top: 11rem;
+    }
+    .blog-tecnologia {
+        font-size: 5.4rem;
+    }
+    .header__texto__descripcion {
+        font-size: 2.8rem;
+    }
+    .navegacion {
+        display: flex;          /*Organiza los enlaces de izquierda a derecha*/
+        gap: 2rem;              /*Coloca espacio entre los enlaces*/
+    }
+    .navegacion__enlace:first-of-type {
+        border-top: none;
+    }    
+    .header__texto__descripcion {
+        font-size: 3rem;
+    }
+    .contenido-principal {
+        display: grid;
+        grid-template-columns: 2fr 1fr;         /*Distribuimos la pantalla para tener las entradas y la barra*/
+        column-gap: 4rem;   
+    }
+    .contenido-entrada {
+        display: grid;
+        grid-template-columns: 4fr 1fr;         /*Distribuimos la pantalla para tener las entradas y la barra*/
+        column-gap: 4rem; 
+    }
+    .boton {
+        display: inline-block;      /*En computadoras se muestran más chico el botón de Leer Entrada*/
+    }
+    .boton:hover{
+        cursor: pointer;
+    }
+    .navegacion__enlace__footer {
+        border-bottom: none;
+    }
+    .titulo-entrada {
+        text-align: left;
+    }    
+    .curso-descripcion {
+        display: flex;
+        justify-content: space-between;
+    }
+    .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));      /*Pone los productos en dos columnas*/
+    }
+    .curso-descripcion__texto {
+        font-size: 2rem;
+    }
+    .iconos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);      /*Asignamos 3 columnas y cada una ocupará una fracción (1/3) de la pantalla*/
+        column-gap: 1.5rem;     /*Asignamos un espacio entre cada columna*/
+    }
+    .tecnologias, .lista-grid__3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);      /*Asignamos 3 columnas y cada una ocupará una fracción (1/3) de la pantalla*/
+        column-gap: 1.5rem;     /*Asignamos un espacio entre cada columna*/
+    }
+    .tecnologias-par, .lista-grid__2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);      /*Asignamos 3 columnas y cada una ocupará una fracción (1/3) de la pantalla*/
+        column-gap: 1.5rem;     /*Asignamos un espacio entre cada columna*/
+    }
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto 20rem;
+        column-gap: 1rem;
+    }
+    .campo:nth-child(3), .campo:nth-child(4){
+        grid-column: 1/3;   
+    }
+    .campo:nth-child(5) {
+        padding-top: 9rem;
+    }
+    .tabla, .fuente-info {
+        font-size: 2rem;
+    }
+}
